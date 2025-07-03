@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{67087BD8-D8EC-437E-B650-CFFF0BFF23AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Tests", "Tests\MarsRover.Tests\MarsRover.Tests.csproj", "{B7F3E1C5-64B0-48AD-8F96-1E251DB69A44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{886DE259-1A99-47A1-953E-C5F732111A6F} = {886DE259-1A99-47A1-953E-C5F732111A6F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
