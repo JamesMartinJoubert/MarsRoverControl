@@ -1,4 +1,4 @@
-﻿using MarsRover.Utilities;
+﻿using MarsRover.Services;
 using FluentAssertions;
 
 namespace MarsRover.Tests.Tests
@@ -27,7 +27,7 @@ namespace MarsRover.Tests.Tests
         {
             var marsGrid = MarsGridUtilities.GenerateMarsGrid(1, 1);
 
-            marsGrid.Count.Should().Be(1);
+            marsGrid.LongLength.Should().Be(1);
         }
 
         [TestMethod]
@@ -35,7 +35,7 @@ namespace MarsRover.Tests.Tests
         {
             var marsGrid = MarsGridUtilities.GenerateMarsGrid(3, 3);
 
-            marsGrid.Count.Should().Be(9);
+            marsGrid.LongLength.Should().Be(9);
         }
     }
 }
